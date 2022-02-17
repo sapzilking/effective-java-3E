@@ -38,7 +38,7 @@
 > > * 박싱된 기본 타입보다는 기본타입을 사용하고, 의도치 않은 오토박싱이 숨어들지 않도록 주의하자!
 > > ***
 > > #### **아이템8,9**
-> > * close 메서드를 호출해 직접 닫아줘야하는 자원들은 상당수가 안전망으로 finalizer를 활용하고 있지만 finalizer는 그리 믿을만하지 못하다.(아이템8)
+> > * close 메서드를 호출해 직접 닫아줘야하는 자원들은 상당수가 안전망으로 finalizer를 활용하고 있지만 finalizer는 그리 믿을만하지 못하다.([아이템8](https://github.com/merry-santa/effective-java-3E/tree/main/src/main/java/chapter2/item8))
 > > * 그러므로 close 메서드를 호출해 직접 닫아줘야 하는 자원을 사용할 때는 try-with-resources를 사용하자!  
       코드는 더 짧고 분명해지고, 예외 정보도 훨씬 유용하게 사용할 수 있다.
 > > ***
