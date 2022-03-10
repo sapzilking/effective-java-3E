@@ -19,5 +19,6 @@ public class Union {
         Set<String> stooges = Set.of("래리", "모에", "컬리");
         Set<String> aflCio = union(guys, stooges);
         System.out.println("aflCio = " + aflCio);
+
     }
 }
