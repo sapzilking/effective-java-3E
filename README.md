@@ -58,7 +58,10 @@
 > > #### **아이템31**
 > > * 와일드카드 타입을 사용하는 기본원칙 -> PECS(producer-extends, consumer-super)
 > > * Comparable과 Comparator는 모두 consumer이다!
-     
+> ### **6장**
+> > #### **아이템35**
+> > * Enum 타입에서 몇 번째 위치인지를 반환하는 oridinal이라는 메서드가 있는데 해당 메서드는 EnumSet과 EnumMap 같이 Enum타입 기반의 범용 자료구조에 쓸 목적으로 설계된 것이므로 이런 용도가 아니라면 oridinal 메서드는 절대 사용하지 말자
+> > * Enum 타입 상수에 연결된 값을 사용하고 싶다면 oridinal 메서드로 얻지 말고, 인스턴스 필드에 저장하자. ([e.g](https://github.com/sugil92/effective-java-3E/blob/main/src/main/java/chapter6/item35/Ensemble.java))
   
 
 
